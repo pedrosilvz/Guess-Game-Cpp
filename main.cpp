@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdlib>      // rand()
-#include <ctime>        // time()
+#include <cstdlib>      
+#include <ctime>        
 using namespace std;
 
 int main () {
@@ -25,7 +25,7 @@ int main () {
         max_attempts = 5;
     }
 
-    srand(time(NULL));      // seed para o rand()
+    srand(time(NULL));      
     const int SECRET_NUMBER = rand() % 100;
 
     bool not_guessed = true;
@@ -39,9 +39,9 @@ int main () {
         int guess;
         cout << endl;
         cout << "What's the secret number? ";
-        cin >> guess;                               // input do usuário
+        cin >> guess;                               
 
-        double last_points = abs(guess - SECRET_NUMBER)/2.0;        // abs = valor absoluto
+        double last_points = abs(guess - SECRET_NUMBER)/2.0;        
         points = points - last_points;
 
         bool guessed = guess == SECRET_NUMBER;
@@ -75,8 +75,8 @@ int main () {
     if (not_guessed) {
         cout << "You lost! Try again!" << endl;
     } else {
-        cout.precision(2);                        // precisão de 2 casas decimais
-        cout << fixed;                            // fixa a precisão
+        cout.precision(2);                        
+        cout << fixed;                            
         cout << "Total points: " << points << " points." << endl;
     }
 
