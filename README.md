@@ -12,7 +12,7 @@
 
 
 
-###  - A Guess Game created with C++ language in Visual Studio Code. Try to change the language of the programm if you want to! The default language in the project is Brazilian Portuguese (you can also delete **`#include <locale.h>`** e **`setlocale(LC_ALL, "Portuguese_Brazil")`** if you not using portuguese words in the project. 
+###  - A Guess Game created with C++ language in Visual Studio Code. Try to change the language of the programm if you want to! The default language in the project is English!
 
 ###  - This project was made by me as a activity in **`Alura curso C++: Conhecendo a linguagem e a STL.`**
 
