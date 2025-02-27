@@ -21,5 +21,5 @@
 ---
 
 ## Tradução 🥂
-###  - Um jogo de advinhação criado com a linguagem de programação C. 
-###  - Esse projeto foi realizado por mim como uma atividade da  **`Alura curso C: Conhecendo a linguagem das linguagens.`** 
+###  - Um jogo de advinhação criado com a linguagem de programação C++. 
+###  - Esse projeto foi realizado por mim como uma atividade da  **`Alura curso C++: Conhecendo a linguagem e a STL.`** 
